@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+/* header start here */
+
+.header{
+    width: 100%;
+    height: fit-content;  
+}
+
+.header nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header nav .container .logo{
+    width: 149px;
+    height: 60px;
+    cursor: pointer;
+}
+.header nav .container .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.header nav .container .nav-links li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header nav .container .nav-links li a:hover{
+    color: #30B868;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #28a85a;
+}
+
+
+/* header end here */
+
+/* hero banner section start here */
+
+.hero-banner{
+    background-image: url("/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+.hero-banner .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.hero-banner .container .tag{
+    font-size: 16px;
+    background-color: #fff;
+    color: #30B868;
+    padding: 8px ;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.hero-banner .container h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #fff;
+}
+
+.hero-banner .container .highlight-text{
+    color: #30B868;
+    display: block;
+}
+
+.hero-banner .container .subheading{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    max-width: 720px;
+}
+
