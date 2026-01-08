@@ -66,6 +66,15 @@ body{
     background-color: #28a85a;
 }
 
+.secondary-button{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.secondary-button:hover{
+    background-color: #30B868;
+}
+
 
 /* header end here */
 
@@ -116,5 +125,10 @@ body{
     line-height: 32px;
     color: #FFFFFF;
     max-width: 720px;
+}
+
+.hero-banner .container .button-container{
+    display: flex;
+    gap: 16px;
 }
 
