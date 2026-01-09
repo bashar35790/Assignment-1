@@ -105,6 +105,11 @@ body {
   margin: 0 auto;
   border-radius: 100px;
 }
+.hero-banner .container .tag img {
+    width: 16px;
+    height: 16px;
+   
+}
 
 .hero-banner .container h1 {
   font-size: 72px;
