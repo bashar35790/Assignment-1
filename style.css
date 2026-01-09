@@ -13,6 +13,7 @@ body{
 .container{
     max-width: 1360px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* header start here */
@@ -131,4 +132,97 @@ body{
     display: flex;
     gap: 16px;
 }
+
+/* hero banner section end here */
+
+
+/* features section start here */
+
+.features{
+    padding: 100px 0;
+    background-color: #F9FAFB;
+}
+.features .container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.features .container  .section-header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+
+}
+.section-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #001931;
+}
+.section-subheading{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #627382;
+    max-width: 720px;
+}
+
+.features .container .item-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+}
+.features .container .item-container .feature-item{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 60px 24px;
+    max-width: 322px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.features .container .item-container .feature-item img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+}
+
+.features .container .item-container .feature-item h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #001931;
+}
+.features .container .item-container .feature-item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+}
+/* features section end here */
+
+/* solutions section start here   */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
