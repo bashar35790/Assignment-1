@@ -81,7 +81,7 @@ body {
 /* hero banner section start here */
 
 .hero-banner {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("./assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   padding: 120px 0;
